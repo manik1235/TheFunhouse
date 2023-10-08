@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://c7x0mt6hcgtbc"]
+
+[ext_resource type="Script" path="res://rooms_container.gd" id="1_wjlik"]
+[ext_resource type="PackedScene" uid="uid://8kyh7f4dbdq7" path="res://front_door.tscn" id="2_giuf8"]
+
+[node name="RoomsContainer" type="Node2D"]
+script = ExtResource("1_wjlik")
+
+[node name="FrontDoor" parent="." instance=ExtResource("2_giuf8")]
